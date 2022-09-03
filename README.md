@@ -13,17 +13,17 @@ Undergraduate Intership at Communication and Signal Processing Lab
 
 * __1st Week__
   * Spike & Local Field Potential 
-    * Digital Signal Processing
+  * Digital Signal Processing
     
 
 * __2nd Week__
   * Fast Fourier Transform
-    * Power Spectral Density
+  * Power Spectral Density
     
 
 * __3rd Week__
   * Fast Fourier Transform vs Welch's Method
-    * Fitting Oscillations and One-Over-F Algorithm
+  * Fitting Oscillations and One-Over-F Algorithm
     
 
 * __4th Week__
@@ -32,4 +32,4 @@ Undergraduate Intership at Communication and Signal Processing Lab
 
 * __5th Week__
   * PD rat model vs Normal rat model
-    * Comparison of PSD
+  * Comparison of PSD
