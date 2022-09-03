@@ -1,0 +1,13 @@
+https://www.clien.net/service/board/kin/4947992 - 실행속도 개선 방향 Q/A
+https://ko.wikiversity.org/wiki/Matlab/%EA%B8%B0%EC%B4%88 - 매트랩 기초
+https://kr.mathworks.com/help/matlab/ref/fft.html - 퓨리에 변환 (fft)
+https://supermemi.tistory.com/97 - 퓨리에 변환 과정
+https://supermemi.tistory.com/96
+https://darkpgmr.tistory.com/171 - 퓨리에 변환 정리
+https://www.researchgate.net/figure/Characteristics-of-the-power-spectral-densities-PSD-A-PSD-for-Parkinsons-patients_fig1_340986576
+ㄴ pd vs normal -> psd
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=wei-jung&logNo=221472738196 - log scale vs linear scale
+https://ralasun.github.io/signal%20analysis/2021/07/01/nyq/ -나이퀴스트 설명
+
+
+

@@ -1,0 +1,53 @@
+%% Parameters
+fs = 100;                       % [Hz]; sampling rate
+t_length = 30;                  % [sec]; total time length (Length of signal)
+time = 0:1/fs:t_length-1/fs;    % time vector
+N = numel(time);                % number of data points
+%% Generate 10 Hz sine waves
+s1 = sin(2*pi*10*time);
+
+figure();
+plot(time, s1)
+xlabel('Time [sec]')
+ylabel('[Arbitrary unit]')
+hold on
+%% Obtain power spectral densities using fft
+s1_fft = fft(s1);                   % Fast Fourier transform
+
+P2 = abs(s1_fft/N);                 % symmetry spectrum cal
+P1 = P2(1:(N/2+1));                 % spectrum cal
+P1(2:end-1) = 2*P1(2:end-1);        
+
+f1 = fs*(0:(N/2))/N;
+figure()
+plot(f1, P1)
+xlabel('f (Hz)')                   
+ylabel('|P1(f)|') 
+
+%% and 25 Hz 
+s2 = sin(2*pi*25*time);
+plot(time, s2)
+xlabel('Time [sec]')
+ylabel('[Arbitrary unit]')
+hold on
+
+s2_ftt = fft(s2);
+
+P_2 = abs(s1_fft/N);                 % 양방향 스펙트럼 계산
+P_1 = P_2(1:(N/2+1));                % 신호길이를 기반으로 단방향 스펙트럼 계산
+P_1(2:end-1) = 2*P_1(2:end-1);        
+
+f_1 = fs*(0:(N/2))/N;
+figure()
+plot(f_1, P_1)
+
+f_2 = fs*((-N/2+1):(N/2))/N;
+figure()
+plot(f_2, P_2)
+
+figure()
+plot(f_1, P_1)                      % 축을 기반으로 플로팅
+xlabel('f (Hz)')                    % x축
+ylabel('|P1(f)|')                   % y축
+
+%% Raw Data 
