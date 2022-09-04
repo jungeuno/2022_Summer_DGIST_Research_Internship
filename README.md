@@ -28,7 +28,7 @@ Undergraduate Intership at Communication and Signal Processing Lab
 
 * __4th Week__
   * Aperiodic & Periodic
-  
+  * MATLAB coding
 
 * __5th Week__
   * PD rat model vs Normal rat model
