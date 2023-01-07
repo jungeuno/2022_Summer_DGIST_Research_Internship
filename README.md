@@ -23,7 +23,7 @@ Undergraduate Intership at Communication and Signal Processing Lab
 
 * __3rd Week__
   * Fast Fourier Transform vs Welch's Method
-  * Fitting Oscillations and One-Over-F Algorithm
+  * Fitting Oscillations and One-Over-⨍ Algorithm
     
 
 * __4th Week__
