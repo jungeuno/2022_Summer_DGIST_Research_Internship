@@ -1,10 +1,10 @@
 # 2022-Summer-DGIST-Research-Internship-Summary
-Undergraduate Intership at Communication and Signal Processing Lab
+Undergraduate Internship at Communication and Signal Processing Lab
 -----------------------------------------------------------------------
 
 🌎 Location : 333 Techno Jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu, 42988, Republic of Korea
 
-🧑🏻 Position : Intern
+👩🏻 Position : Intern
 
 ⏰ Intership Period : 2022.06.27 ~ 2022.07.29
 
