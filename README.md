@@ -6,7 +6,7 @@ Undergraduate Internship at Communication and Signal Processing Lab
 
 👩🏻 Position : Intern
 
-⏰ Intership Period : 2022.06.27 ~ 2022.07.29
+⏰ Internship Period : 2022.06.27 ~ 2022.07.29
 
 -----------------------------------------------------------------------
 
